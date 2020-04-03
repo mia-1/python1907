@@ -1,0 +1,149 @@
+    1  ls
+    2  git
+    3  mkdir hello
+    4  cd hello/
+    5  git init
+    6  touch a.txt
+    7  git status
+    8  git add a.txt
+    9  git status
+   10  git commit -m 'first commit'
+   11  git status
+   12  git status
+   13  git config --global user.email "1246799738@qq.com"
+   14  git config --global user.name "Your Name"
+   15  git config --global user.name 'gao'
+   16  git commit -m 'first commit'
+   17  git diff
+   18  touch b.txt
+   19  git add .
+   20  git commit -m 'add file b.txt'
+   21  git log
+   22  git log --pretty=oneline
+   23  git reset --hard HEAD^
+   24  git reflog
+   25  git reset --hard 88ac97c 
+   26  git remote
+   27  git pull origin master
+   28  ls
+   29  cd ..
+   30  git remote
+   31  git branch
+   32  cd hello/
+   33  git branch
+   34  git checkout def
+   35  git branch dev
+   36  git branch
+   37  git checkout dev
+   38  git checkout master
+   39  nohup redis-server
+   40  nohup redis-server >1.log
+   41  nohup redis-server &
+   42  redis-server
+   43  scp mac@10.36.143.91:~/Desktop/day19_2.zip  ~
+   44  scp mac@10.36.143.91:~/Desktop/day19_1.zip  ~ Desktop
+   45  workon
+   46  ipconfig
+   47  ssh HP@10.36.143.42
+   48  ps -ef | sort -k7
+   49  top -i
+   50  uptime
+   51  ls
+   52  clear
+   53  who
+   54  who -a
+   55  cd desktop/
+   56  who
+   57  ls
+   58  uptime
+   59  who -a
+   60  uname -a
+   61  export
+   62  du
+   63  du -h --max-depth=1
+   64  du -sh
+   65  uname -a
+   66  export
+   67  du
+   68  du -h --max-depth=1
+   69  dh -sh
+   70  du -sh
+   71  df
+   72  df -h
+   73  df
+   74  df -h
+   75  free
+   76  free -h
+   77  pmap pid
+   78  vmstat
+   79  curl ifconfig.me
+   80  ifconfig -a
+   81  ipconfig -a
+   82  exit
+   83  ip addr
+   84  top
+   85  pstree
+   86  ps -ef
+   87  top
+   88  exit
+   89  cd desktop
+   90  ls 
+   91  ls -a
+   92  ls -a ./
+   93  --help
+   94  ls --help
+   95  man
+   96  man ls
+   97  man ls
+   98  history
+   99  ls
+  100  sl
+  101  ls -a
+  102  ls -l
+  103  ls -h
+  104  ls *.lnk
+  105  ls > demo.txt
+  106  cat demo.txt
+  107  touch haha.txt
+  108  more demo.txt
+  109  ls -lh |more
+  110  clear
+  111  pwd
+  112  mkdir -p a/b/c
+  113  rmdir haha.txt
+  114  rmdir a
+  115  rmdir -c
+  116  rmdir c
+  117  rmdir b
+  118  rm -ri
+  119  rm -ri a/b/c
+  120  rm -r a
+  121  clear
+  122  ln demo.txt demo1.txt
+  123  ln -s demo.txt demo2.txt
+  124  rm demo.txt
+  125  cat demo2.txt
+  126  cat demo1.txt
+  127  cat haha.txt
+  128  cat demo1.txt
+  129  history
+  130  whoami
+  131  who
+  132  who -m
+  133  who am i
+  134  who -q
+  135  exit
+  136  cd desktop/
+  137  mkdir a
+  138  cd a
+  139  touch project1.txt
+  140  git init
+  141  ls -la
+  142  git add project1.txt
+  143  git status
+  144  git rm --cached project1.txt
+  145  git status
+  146  ls > project1.txt
+  147  cat project1.txt
+  148  history > project1.txt
+project1.txt
